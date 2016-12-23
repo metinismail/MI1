@@ -1,0 +1,25 @@
+body 
+{
+	background-color: burlywood; 
+	text-align:center;
+}
+h3 
+{
+	color: blue; 
+}
+
+p 
+{
+	font-family:cursive; 
+	color:navy;
+	
+} 
+
+ol 
+{
+	
+	border: dashed 0.2em blue;
+	font-family:sans-serif; 
+	color:blue;
+	list-style-position:inside;
+}  
