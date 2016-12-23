@@ -1,0 +1,52 @@
+body{
+    color: gold;
+    font-family: fantasy;
+    font-size: 3em;
+    background-color: greenyellow;
+}
+.groteblok
+{
+	position: absolute;
+	height:700px;
+	width:700px;
+	top:90px;
+	left:100px;
+	background-color: aqua;
+	
+}
+.blok2
+{
+	position: absolute;
+	left:150px;
+	top:150px;
+	height:150px;
+	width:150px;
+	background-color: firebrick;
+}
+.blok3
+{
+	position: absolute;
+	right:150px;
+	top:150px;
+	height:150px;
+	width:150px;
+	background-color: lightskyblue;
+}
+.blok4
+{
+	position: absolute;
+	right:150px;
+	bottom:150px;
+	height:150px;
+	width:150px;
+	background-color: sandybrown;
+}
+.blok5
+{
+	position: absolute;
+	left:150px;
+	bottom:150px;
+	height:150px;
+	width:150px;
+	background-color: pink;
+}
