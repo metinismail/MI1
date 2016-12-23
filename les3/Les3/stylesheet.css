@@ -1,0 +1,24 @@
+body {
+    font: Arial; 
+    background-color: darkseagreen;
+}
+
+p{
+    text-align: left;
+    font-size: 1em;
+}
+
+h1{
+    font-style: italic;
+    background-color: aquamarine;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    font-style: oblique;
+    background-color: bisque;
+    font-size: 2em;
+    text-align: center;
+}
+img{ width: 15%}
