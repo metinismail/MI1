@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+ <head>
+     <link rel="stylesheet" href="les5.css" />
+ 	<title> Metin's formulier</title>
+ </head>	
+ 
+ <body >
+        <p>
+			<a href="../index.html">
+			Terug naar index
+		</a>
+            <br>
+            <a href="../Les6/les6.html">
+			Les 6
+		</a>
+	</p>
+	 
+ 	<h1>Formulier </h1>
+ 	
+ 	<form action="mailto:mrr.metinn@gmail.com" method="post">
+ 		
+ 		<fieldset id="gegevens">
+ 		 <legend>Jou voorkeur</legend>
+			<label for=kleur> kleur</label> 
+			<input type="text" id="kleur" name="kleur" maxlength="35"/>
+			<br>
+		
+			<label for=jouw-sport >Lievelings Sport</label>            
+			<input type="radio" id="Vecht" name="jouw-sport"/>
+			<label for=vecht>Vecht</label>
+			
+			<input type="radio" id="Atletiek" name="jouw-sport"/>
+			<label for=Atletiek>Atletiek</label>
+			
+			<input type="radio" id="Balsport" name="jouw-sport"/>
+			<label for=Ballsport>Ballsport</label>
+			
+			<input type="radio" id="Watersport" name="jouw-sport"/>
+			<label for=Zwemsport>Zwemsport</label>
+			<br> 
+			
+		
+			<label for="Favoriete Maand">Favoriete maand van het jaar </label>
+		    <select id="Favoriete Maand" name="Favoriete Maand">
+			 <option disabled>Kies</option>
+			  <option>Januarie </option>
+			  <option>Februarie</option>
+			  <option>Maart</option>
+			  <option>April</option>
+			  <option>Mei</option>
+			  <option>Junie</option>
+			  <option>Jullie</option>  <option>Augustus</option>  <option>September</option>  <option>October</option>  <option>November</option>  <option>December</option>
+			</select>
+		     <br>
+
+		    
+		    <label for="vertel wat over je zelf :)">vertel wat over je zelf ^_^</label>
+		
+		    <input type="checkbox" id="Vriendelijk" name="ik vind mezelf"/>
+		    <label for="Vriendelijk">Vriendelijk</label>
+		
+		    <input type="checkbox" id="Sportief" name="ik vind mezelf"/>
+		    <label for="Sportief">Sportief</label>
+		
+		    <input type="checkbox" id="Energiek" name="ik vind mezelf"/>
+		    <label for="never give  p">Geen opgever</label>
+		
+		    <input type="checkbox" id="Leergierig" name="ik vind mezelf"/>
+		    <label for="Leergierig">Leergierig</label>
+		    <br>
+			
+		   <label for="Vertel meer over je zelf">Vertel meer over je zelf</label>
+		   <br> 
+		
+		   <textarea id="Vertel meer over je zelf" name="Vertel meer over je zelf" cols=35 rows=10></textarea>
+					 
+
+ 		</fieldset>
+ 		
+ 		<fieldset id="Verzenden" > 
+ 			<legend>Verzenden</legend>
+			
+			<input type="submit" value="Verzenden"/>
+ 	    
+ 	    </fieldset>
+ 		
+ 		
+ 	</form>
+		
+ </body>
+	
+	
+	
+</html>

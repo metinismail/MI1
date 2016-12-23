@@ -1,0 +1,46 @@
+body {
+font-family: castellar;
+    border-color: green;
+    border-style: double;
+    border-width:medium;
+    margin: 5em;
+    padding: 3em;
+    border-radius: 5em 5em 5em 5em;
+    background-color: burlywood;
+}
+
+a:link{
+    color: green;
+}
+
+a:hover{
+    color: red;
+     text-shadow: 0 0 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: red;
+    text-shadow: 0 0 3em;
+    
+}
+
+form {
+	border-width: 10em;
+}
+
+input {
+	background-color: lawngreen;
+	color: red;
+	margin: 0.25em 0 0.25em;
+	border-width: 5px;
+	border-color: red;
+	border-radius: 1em
+}
+
+legend {
+	color: red;
+
+
+}
