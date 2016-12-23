@@ -1,0 +1,52 @@
+body{
+    font-family: fantasy;
+    border-color: green;
+    border-style: double;
+    border-width:medium;
+    margin: 3em;
+    padding: 1em;
+    border-radius: 5em 0em 5em 0em;
+    background-color:darksalmon;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    text-shadow: 0 0 1em;
+    
+}
+
+h2{
+    text-align: left;
+    font-size: 2em;
+    color: mediumblue;
+    text-shadow: 0 0 1em;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    color: darkblue;
+    text-shadow: 0 0 1em;
+    
+}
+
+a:link{
+    color: blue;
+   
+}
+
+a:visited{
+    color: red
+}
+
+a:hover{
+    color: darkmagenta;
+     text-shadow: 0 0 1em;
+}
+
+a:active{
+    color: goldenrod;
+}
