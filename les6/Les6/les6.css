@@ -1,0 +1,28 @@
+h1,h2,p{
+  background:white;
+  color:blue;
+  font-size:120%;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+h2{
+  background:#01DF01;
+  color:#FFD173;
+  font-size:150%;
+  font-family: "Comic Sans MS";
+  
+ 
+}
+p{
+  font-size:100%;
+  font-family: verdana, arial, helvetica, sans-serif; 	
+}
+p.antwoord{
+  background:#FFD173;
+  color:#FFD173;
+}
+p.antwoord:hover{
+  color:#123EAB;
+}
+body{
+  background:red;
+}
