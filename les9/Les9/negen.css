@@ -1,0 +1,17 @@
+/* vormgeving van een lijst */
+/* en een lijst binnen een lijst */
+li{
+	list-style: outside georgian none;
+	margin: -1px 0px 0px 0px;
+}
+li li {
+	list-style:url(Yin-Yang.png);
+}
+a {
+	background-color: darkorange; 
+    font-family: cursive;
+}
+
+li li a{
+	background-color: palevioletred;
+}
